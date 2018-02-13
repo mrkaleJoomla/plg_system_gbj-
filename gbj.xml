@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="3.7" type="plugin" group="system" method="upgrade">
+<extension version="3.8" type="plugin" group="system" method="upgrade">
 	<name>PLG_SYSTEM_GBJ</name>
 	<author>Libor Gabaj</author>
-	<creationDate>August 2017</creationDate>
-	<copyright>(C)2017 Libor Gabaj</copyright>
+	<creationDate>February 2018</creationDate>
+	<copyright>(c) 2017-2018 Libor Gabaj</copyright>
 	<license>GNU GPLv2 or later</license>
 	<authorEmail>libor.gabaj@gmail.com</authorEmail>
-	<authorUrl>n/a</authorUrl>
+	<authorUrl>https://github.com/mrkaleJoomla/plg_system_gbj.git</authorUrl>
 	<version>1.0.0</version>
 	<description>PLG_SYSTEM_GBJ_XML_DESCRIPTION</description>
+        <scriptfile>gbj.script.php</scriptfile>
 	<files>
             <filename plugin="gbj">gbj.php</filename>
 	</files>
