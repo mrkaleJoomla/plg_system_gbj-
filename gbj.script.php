@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Installation script
  *
@@ -43,4 +44,25 @@ class PlgSystemGbjInstallerScript
 
 		return true;
 	}
+
+	/**
+	 * Called at the installation
+	 *
+	 * @param   jadapterinstance $adapter The object running this script
+	 *
+	 * @return void
+	 */
+	public function install(JAdapterInstance $adapter)
+	{
+		$db		 = JFactory::getDBO();
+		$query	 = $db->getQuery(true)
+			->update('#__extensions')
+			->set("enabled='1'")
+			->where("type='plugin'")
+			->where("folder='system'")
+			->where("element='gbj'");
+		$db->setQuery($query);
+		$db->execute();
+	}
+
 }

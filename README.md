@@ -75,7 +75,7 @@ The class is the main plugin's definition class, which contains methods acting a
 The class is the plugin's installation class, which contains methods running at particular installation actions like install, update, discovery, etc. It is defined in the file **gbj.script.php**.
  
 - [preflight()](#preflight)
-
+- [install()](#install)
 
 
 <a id="onAfterInitialise"></a>
@@ -92,9 +92,7 @@ None
 #### Returns
 None
 
-
 [Back to interface](#interface)
-
 
 
 <a id="preflight"></a>
@@ -117,5 +115,23 @@ The method checks whether the custom library **lib_gbj** is installed and enable
 #### Returns
 Boolean result of library checking. In case of *false* result the installation is broken and installer displays the error message defined in the method.
 
+[Back to interface](#interface)
+
+
+<a id="install"></a>
+## PlgSystemGbjInstallerScript::install()
+#### Description
+The method enables the plugin right after its installation. It does not change the status of the plugin at updating the plugin. 
+
+#### Syntax
+	public function install($JAdapterInstance $adapter)
+
+#### Parameters
+- **adapter**: The object running this method usually the Joomla installer.
+  - *Valid values*: JAdapterInstance object
+  - *Default value*: none
+
+#### Returns
+None
 
 [Back to interface](#interface)
