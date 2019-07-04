@@ -5,7 +5,7 @@
  *
  * @package    Joomla.Plugin
  * @subpackage System.Gbj
- * @copyright  (c)2018 Libor Gabaj
+ * @copyright  (c)2018-2019 Libor Gabaj
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  * @since      3.8
  */
@@ -36,10 +36,8 @@ class PlgSystemGbjInstallerScript
 		{
 			JFactory::getApplication()->enqueueMessage(
 				JText::_('PLG_SYSTEM_GBJ_ERROR_NO_LIBRARY'),
-				'error'
+				'warning'
 			);
-
-			return false;
 		}
 
 		return true;
