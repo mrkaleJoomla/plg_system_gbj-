@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.8" type="plugin" group="system" method="upgrade">
-	<name>PLG_SYSTEM_GBJ</name>
-	<author>Libor Gabaj</author>
-	<creationDate>February 2018</creationDate>
-	<copyright>(c) 2017-2018 Libor Gabaj</copyright>
-	<license>GNU GPLv2 or later</license>
-	<authorEmail>libor.gabaj@gmail.com</authorEmail>
-	<authorUrl>https://github.com/mrkaleJoomla/plg_system_gbj.git</authorUrl>
-	<version>1.0.0</version>
-	<description>PLG_SYSTEM_GBJ_XML_DESCRIPTION</description>
-        <scriptfile>gbj.script.php</scriptfile>
-	<files>
-            <filename plugin="gbj">gbj.php</filename>
-            <file>LICENSE.txt</file>
-	</files>
-	<languages folder="language">
-            <language tag="en-GB">en-GB/en-GB.plg_system_gbj.ini</language>
-            <language tag="en-GB">en-GB/en-GB.plg_system_gbj.sys.ini</language>
-            <language tag="sk-SK">sk-SK/sk-SK.plg_system_gbj.ini</language>
-            <language tag="sk-SK">sk-SK/sk-SK.plg_system_gbj.sys.ini</language>
-	</languages>
+    <name>PLG_SYSTEM_GBJ</name>
+    <author>Libor Gabaj</author>
+    <creationDate>February 2018</creationDate>
+    <copyright>(c) 2017-2019 Libor Gabaj</copyright>
+    <license>GNU GPLv2 or later</license>
+    <authorEmail>libor.gabaj@gmail.com</authorEmail>
+    <authorUrl>https://github.com/mrkaleJoomla/plg_system_gbj.git</authorUrl>
+    <version>2.0.0</version>
+    <description>PLG_SYSTEM_GBJ_XML_DESCRIPTION</description>
+    <scriptfile>gbj.script.php</scriptfile>
+    <files>
+        <filename plugin="gbj">gbj.php</filename>
+        <file>LICENSE.txt</file>
+    </files>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.plg_system_gbj.ini</language>
+        <language tag="en-GB">en-GB/en-GB.plg_system_gbj.sys.ini</language>
+        <language tag="sk-SK">sk-SK/sk-SK.plg_system_gbj.ini</language>
+        <language tag="sk-SK">sk-SK/sk-SK.plg_system_gbj.sys.ini</language>
+    </languages>
 </extension>
