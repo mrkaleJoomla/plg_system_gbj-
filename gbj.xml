@@ -2,7 +2,7 @@
 <extension version="3.8" type="plugin" group="system" method="upgrade">
     <name>PLG_SYSTEM_GBJ</name>
     <author>Libor Gabaj</author>
-    <creationDate>February 2018</creationDate>
+    <creationDate>July 2019</creationDate>
     <copyright>(c) 2017-2019 Libor Gabaj</copyright>
     <license>GNU GPLv2 or later</license>
     <authorEmail>libor.gabaj@gmail.com</authorEmail>
